@@ -11,7 +11,8 @@ def flatten_and_sort(array):
     for element in array:
         for i in element:
             result_list.append(i)
-        result_list.sort()
+
+    result_list.sort()
 
     return result_list
 
