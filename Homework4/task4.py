@@ -14,8 +14,7 @@ def multiplication_chain(num):
         mult = 1
         for i in str(num):
             mult *= int(i)
-        a = mult
-        num = a
+        num = mult
         count_multy = count_multy + 1
 
     return count_multy
