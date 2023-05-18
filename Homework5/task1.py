@@ -7,6 +7,13 @@
 
 
 def letter_stat(our_str):
+    """
+    Преобразовываем строку в словарь:
+    ключи - буквы строки
+    значения - числа, соответствующие количеству повторений буквы в строке
+    :param our_str: строка, которую принимаем на вход
+    :return: возвращаем словарь
+    """
     letters_dict = {str(item): our_str.count(item) for item in our_str}
 
     return letters_dict
